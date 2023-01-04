@@ -24,7 +24,7 @@ const Table = ({
     }, secondsUntilEndOfTurn * 1000);
 
     return () => clearTimeout(timer);
-  }, [turn]);
+  }, [turn, numParticipants, secondsUntilEndOfTurn]);
 
   const firstColNames = [
     "Параметры и требования",
@@ -35,7 +35,6 @@ const Table = ({
     "Стоимость изготовления лота, руб (без НДС)",
     "Действия",
   ];
-console.log({activeUser , turn});
 
   return (
     <div className="grid tableGrid">

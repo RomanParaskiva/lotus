@@ -11,7 +11,7 @@ const Layout = ({ children }: { children: JSX.Element|JSX.Element[]; }) => {
   useEffect(() => {
     dispatch(getLots());
     dispatch(getUsers())
-  }, []);
+  }, [dispatch]);
 
   if (isLoading) {
     return <div>Loading...</div>;
