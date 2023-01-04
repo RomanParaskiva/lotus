@@ -68,7 +68,7 @@ console.log({activeUser , turn});
   );
 };
 
-const Counter = ({ seconds, turn }: { seconds: number }) => {
+const Counter = ({ seconds }: { seconds: number }) => {
   const [sec, setSec] = useState(seconds);
 
   useEffect(() => {

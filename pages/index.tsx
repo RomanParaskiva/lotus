@@ -40,6 +40,12 @@ const Home = () => {
         <Link href={"/lot/1/3"}>Пользователь 3 - лот 1</Link>
         <Link href={"/lot/1/4"}>Пользователь 4 - лот 1</Link>
         <Link href={"/lot/1/5"}>Пользователь 5 - лот 1</Link>
+        <hr/>
+        <Link href={"/lot/2/1"}>Пользователь 1 - лот 2</Link>
+        <Link href={"/lot/2/2"}>Пользователь 2 - лот 2</Link>
+        <Link href={"/lot/2/3"}>Пользователь 3 - лот 2</Link>
+        <Link href={"/lot/2/4"}>Пользователь 4 - лот 2</Link>
+        <Link href={"/lot/2/5"}>Пользователь 5 - лот 2</Link>
       </main>
     </>
   );
